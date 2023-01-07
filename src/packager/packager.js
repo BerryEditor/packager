@@ -118,7 +118,7 @@ const generateChromiumLicenseHTML = (licenses) => {
 const CFBundleIdentifier = 'CFBundleIdentifier';
 // Even if you fork the packager, you shouldn't change this string unless you want packaged macOS apps
 // to lose all their data.
-const bundleIdentifierPrefix = 'org.turbowarp.packager.userland.';
+const bundleIdentifierPrefix = 'ml.tinypatch.packager';
 
 // CFBundleName is displayed in the menu bar.
 // I'm not actually sure where CFBundleDisplayName is displayed.

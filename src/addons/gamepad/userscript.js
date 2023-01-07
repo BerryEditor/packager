@@ -158,7 +158,7 @@ export default async function (scaffolding, pointerlock) {
   });
 
   let getCanvasSize;
-  // Support modern ResizeObserver and slow getBoundingClientRect version for improved browser support (matters for TurboWarp)
+  // Support modern ResizeObserver and slow getBoundingClientRect version for improved browser support (matters for TinyPatch)
   if (window.ResizeObserver) {
     let canvasWidth = width;
     let canvasHeight = height;

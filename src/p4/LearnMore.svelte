@@ -1,11 +1,19 @@
 <script>
-  import {_} from '../locales/';
+  import { _ } from "../locales/";
 
   export let slug;
   export let href;
 
   const link = slug ? `https://docs.turbowarp.org/${slug}` : href;
 </script>
+
+<a
+  href={link}
+  title={$_("options.learnMore")}
+  target="_blank"
+  rel="noopener noreferrer"
+  >(?)
+</a>
 
 <style>
   a {
@@ -15,5 +23,3 @@
     text-decoration: underline;
   }
 </style>
-
-<a href={link} title={$_('options.learnMore')} target="_blank" rel="noopener noreferrer">(?)</a>

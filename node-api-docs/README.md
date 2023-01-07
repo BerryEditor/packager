@@ -3,7 +3,7 @@
 ## Installing
 
 ```bash
-npm install --save-exact @turbowarp/packager
+npm install --save-exact @tinypatch/packager
 ```
 
 We suggest that you use `--save-exact` (or, with yarn, `--exact`) to make sure you always install the same version. This is important because we don't promise API compatibility across even minor updates.
@@ -14,11 +14,11 @@ We suggest that you use `--save-exact` (or, with yarn, `--exact`) to make sure y
 
 The Node.js API is still in beta.
 
-There are no promises of API stability between updates even across minor updates. Always pin to an exact version and don't update without testing. We don't go out of our way to break the API, but we don't let it stop us from making changes. We try to mention noteworthy changes in the [GitHub releases](https://github.com/TurboWarp/packager/releases) changelog.
+There are no promises of API stability between updates even across minor updates. Always pin to an exact version and don't update without testing. We don't go out of our way to break the API, but we don't let it stop us from making changes. We try to mention noteworthy changes in the [GitHub releases](https://github.com/TinyPatch/packager/releases) changelog.
 
 ### Release cadence
 
-We intend to release an updated version of the npm module to npm with every update of [TurboWarp Desktop](https://github.com/TurboWarp/desktop), which currently happens about once a month.
+We intend to release an updated version of the npm module to npm with every update of [TinyPatch Desktop](https://github.com/TinyPatch/desktop), which currently happens about once a month.
 
 ### Feature support
 
@@ -34,7 +34,7 @@ The Node.js module as published on npm is not intended to work in a browser rega
 
 Large assets such as Electron binaries are not stored in this repository and will be downloaded from a remote server on demand. While we aren't actively removing old files, we can't promise they will exist forever. Downloads are validated with a SHA-256 checksum and cached locally.
 
-Large assets are cached in `node_modules/@turbowarp/packager/.packager-cache`. You may want to periodically clean this folder.
+Large assets are cached in `node_modules/@tinypatch/packager/.packager-cache`. You may want to periodically clean this folder.
 
 ## Using the API
 
@@ -43,7 +43,7 @@ See demo.js or demo-simple.js for a full example.
 First, you can import the module like this:
 
 ```js
-const Packager = require('@turbowarp/packager');
+const Packager = require('@tinypatch/packager');
 ```
 
 ### Load a project

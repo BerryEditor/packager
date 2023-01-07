@@ -85,7 +85,7 @@
         "pageTitle": "Заголовок страницы",
         "playerOptions": "Настройки проигрывателя",
         "pointerlock": "Заблокировать курсор мыши",
-        "pointerlockHelp": "Основано на TurboWarp Experiment.",
+        "pointerlockHelp": "Основано на TinyPatch Experiment.",
         "preserveRatio": "Сохранять соотношение сторон при изменении размера (рекомендуется)",
         "preview": "Предпросмотр",
         "projectId": "ID проекта",

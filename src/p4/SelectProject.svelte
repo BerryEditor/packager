@@ -246,7 +246,7 @@
           <input type="text" value={getDisplayedProjectURL()} spellcheck="false" on:keypress={submitOnEnter} on:input={handleInput} on:focus={handleFocus}>
         {/if}
       </div>
-      <!-- TurboWarp Desktop looks for the file-input-option class for special handling, so be careful when modifying this. -->
+      <!-- TinyPatch Desktop looks for the file-input-option class for special handling, so be careful when modifying this. -->
       <div class="option file-input-option">
         <label>
           <input type="radio" name="project-type" bind:group={$type} value="file">
@@ -264,27 +264,6 @@
         {/if}
       </div>
     </div>
-
-    {#if $type === "id"}
-      <p>
-        {$_('select.unsharedProjects')}
-      </p>
-      <p>
-        {$_('select.unsharedProjectsWorkaround')}
-      </p>
-      <p>
-        <ComplexMessage
-          message={$_('select.unsharedProjectsMore')}
-          values={{
-            link: {
-              text: 'https://docs.turbowarp.org/unshared-projects',
-              href: 'https://docs.turbowarp.org/unshared-projects',
-              newTab: true
-            }
-          }}
-        />
-      </p>
-    {/if}
 
     <Button on:click={load} text={$_('select.loadProject')} />
   </Section>

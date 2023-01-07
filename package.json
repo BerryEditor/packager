@@ -1,5 +1,5 @@
 {
-  "name": "@turbowarp/packager",
+  "name": "@tinypatch/packager",
   "version": "1.4.0",
   "description": "Converts Scratch projects into HTML files, zip archives, or executable programs for Windows, macOS, and Linux.",
   "main": "dist/packager.js",
@@ -18,16 +18,16 @@
     "postpublish": "node src/build/nodejs/update-readme.js restore"
   },
   "author": "GarboMuffin",
-  "homepage": "https://github.com/TurboWarp/packager#readme",
+  "homepage": "https://github.com/TinyPatch/packager#readme",
   "keywords": [
     "scratch"
   ],
   "bugs": {
-    "url": "https://github.com/TurboWarp/packager/issues"
+    "url": "https://github.com/TinyPatch/packager/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/TurboWarp/packager.git"
+    "url": "https://github.com/TinyPatch/packager.git"
   },
   "funding": "https://github.com/sponsors/GarboMuffin",
   "license": "Apache-2.0",

@@ -27,9 +27,9 @@ If this is set to an empty string, the link is removed.
 */
 
 module.exports = {
-  APP_NAME: 'TurboWarp Packager',
-  WEBSITE: 'https://packager.turbowarp.org/',
-  COPYRIGHT_NOTICE: `Copyright (C) 2021-2022 Thomas Weber
+  APP_NAME: 'TinyPatch Packager',
+  WEBSITE: 'https://github.com/TinyPatch/packager',
+  COPYRIGHT_NOTICE: `Copyright (C) 2021-2023 Abderrahmene Merzoug
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -43,14 +43,14 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.`,
   ACCENT_COLOR: '#ff4c4c',
-  SOURCE_CODE: 'https://github.com/TurboWarp/packager',
-  FEEDBACK_PRIMARY: {
+  SOURCE_CODE: 'https://github.com/TinyPatch/packager',
+  FEEDBACK_PRIMARY: {/* 
     name: 'Scratch',
     link: 'https://scratch.mit.edu/users/GarboMuffin/#comments'
-  },
+   */},
   FEEDBACK_SECONDARY: {
     name: 'GitHub',
-    link: 'https://github.com/TurboWarp/packager/issues'
+    link: 'https://github.com/TinyPatch/packager/issues'
   },
-  DONATE: 'https://github.com/sponsors/GarboMuffin',
+  DONATE: '',
 };

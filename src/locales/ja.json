@@ -85,7 +85,7 @@
         "pageTitle": "ページの題名",
         "playerOptions": "プレイヤーのオプション",
         "pointerlock": "マウスカーソルをロックする",
-        "pointerlockHelp": "TurboWarpの試験的な機能です。",
+        "pointerlockHelp": "TinyPatchの試験的な機能です。",
         "preserveRatio": "サイズを変えてもアスペクト比を維持する（推奨）",
         "preview": "プレビュー",
         "projectId": "プロジェクトID",

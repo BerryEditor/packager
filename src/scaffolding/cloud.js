@@ -148,7 +148,7 @@ class WebSocketProvider {
   }
 
   onclose (e) {
-    // https://github.com/TurboWarp/cloud-server/blob/master/doc/protocol.md#status-codes
+    // https://github.com/TinyPatch/cloud-server/blob/master/doc/protocol.md#status-codes
     if (e && e.code === 4002) {
       console.log('Username is invalid; not reconnecting.');
       return;

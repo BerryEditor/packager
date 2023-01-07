@@ -274,7 +274,7 @@ class Scaffolding extends EventTarget {
     const projectAreaHeight = Math.max(1, totalHeight - offsetFromTop - offsetFromBottom);
 
     if (this.resizeMode === 'dynamic-resize') {
-      // setStageSize is a TurboWarp-specific method
+      // setStageSize is a TinyPatch-specific method
       if (this.vm.setStageSize) {
         this.width = projectAreaWidth;
         this.height = projectAreaHeight;
@@ -322,7 +322,7 @@ class Scaffolding extends EventTarget {
     this.vm.on('PROJECT_RUN_START', () => this.dispatchEvent(new Event('PROJECT_RUN_START')));
     this.vm.on('PROJECT_RUN_STOP', () => this.dispatchEvent(new Event('PROJECT_RUN_STOP')));
 
-    // TurboWarp-specific VM extensions
+    // TinyPatch-specific VM extensions
     if (this.usePackagedRuntime && this.vm.convertToPackagedRuntime) {
       this.vm.convertToPackagedRuntime();
     }
@@ -332,7 +332,7 @@ class Scaffolding extends EventTarget {
     if (this.vm.runtime.cloudOptions) {
       this.vm.runtime.cloudOptions.limit = Infinity;
     }
-    // TODO: remove when https://github.com/TurboWarp/packager/issues/213 is fixed
+    // TODO: remove when https://github.com/TinyPatch/packager/issues/213 is fixed
     this.vm.on('STAGE_SIZE_CHANGED', (width, height) => {
       if (this.width !== width || this.height !== height) {
         this.width = width;

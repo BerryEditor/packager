@@ -77,7 +77,7 @@
         "pageTitle": "Títol de la pàgina",
         "playerOptions": "Opcions del reproductor",
         "pointerlock": "Bloqueja el cursor del ratolí",
-        "pointerlockHelp": "Basat en un experiment de TurboWarp.",
+        "pointerlockHelp": "Basat en un experiment de TinyPatch.",
         "preserveRatio": "Preserva la relació d'aspecte quan es canvia la mida (recomanat)",
         "preview": "Vista prèvia",
         "projectId": "ID del projecte",

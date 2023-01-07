@@ -88,7 +88,7 @@
         "pageTitle": "Título de la página",
         "playerOptions": "Opciones del Reproductor",
         "pointerlock": "Bloquear puntero del ratón",
-        "pointerlockHelp": "Basado en un experimento de TurboWarp",
+        "pointerlockHelp": "Basado en un experimento de TinyPatch",
         "preserveRatio": "Preservar relación de aspecto al cambiar el tamaño (recomendado)",
         "preview": "Previsualización",
         "projectId": "ID del proyecto",
