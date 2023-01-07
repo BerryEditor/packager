@@ -132,17 +132,7 @@
         </p>
       {/if}
       <p>{$_('p4.description1')}</p>
-      <p>
-        <ComplexMessage
-          message={$_('p4.description2')}
-          values={{
-            embedding: {
-              text: $_('p4.description2-embedding'),
-              href: 'https://docs.turbowarp.org/embedding'
-            }
-          }}
-        />
-      </p>
+  
       <p>
         <ComplexMessage
           message={$_('p4.description3')}
@@ -211,18 +201,10 @@
         <a href="privacy.html">{$_('p4.privacy')}</a>
         <span> - </span>
       {/if}
-      <a href={FEEDBACK_PRIMARY.link}>{$_('p4.feedback')}</a>
       {#if SOURCE_CODE}
         <span> - </span>
         <a href={SOURCE_CODE}>{$_('p4.sourceCode')}</a>
       {/if}
-      {#if DONATE}
-        <span> - </span>
-        <a href={DONATE}>{$_('p4.donate')}</a>
-      {/if}
-    </div>
-    <div>
-      <a href="https://docs.turbowarp.org/packager">{$_('p4.documentation')}</a>
     </div>
     <div>
       <SelectTheme />

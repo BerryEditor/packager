@@ -44,10 +44,10 @@ See the License for the specific language governing permissions and
 limitations under the License.`,
   ACCENT_COLOR: '#ff4c4c',
   SOURCE_CODE: 'https://github.com/TinyPatch/packager',
-  FEEDBACK_PRIMARY: {/* 
-    name: 'Scratch',
-    link: 'https://scratch.mit.edu/users/GarboMuffin/#comments'
-   */},
+  FEEDBACK_PRIMARY: {
+    name: 'User Profile',
+    link: 'https://github.com/obaydmerz'
+   },
   FEEDBACK_SECONDARY: {
     name: 'GitHub',
     link: 'https://github.com/TinyPatch/packager/issues'
