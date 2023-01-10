@@ -100,7 +100,7 @@ export default async function (scaffolding, pointerlock) {
   const gamepad = new GamepadLib();
 
   const parsedOptions = parseOptionsComment();
-  gamepad.getHintsLazily = () => {
+  gamepad.getUserHints = () => {
     if (parsedOptions) {
       return {
         importedSettings: parsedOptions,
@@ -158,7 +158,7 @@ export default async function (scaffolding, pointerlock) {
   });
 
   let getCanvasSize;
-  // Support modern ResizeObserver and slow getBoundingClientRect version for improved browser support (matters for TinyPatch)
+  // Support modern ResizeObserver and slow getBoundingClientRect version for improved browser support
   if (window.ResizeObserver) {
     let canvasWidth = width;
     let canvasHeight = height;
