@@ -7,13 +7,6 @@
   const link = slug ? `https://docs.turbowarp.org/${slug}` : href;
 </script>
 
-<a
-  href={link}
-  title={$_("options.learnMore")}
-  target="_blank"
-  rel="noopener noreferrer"
-  >(?)
-</a>
 
 <style>
   a {

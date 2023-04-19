@@ -1,6 +1,6 @@
 {
   "name": "@tinypatch/packager",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "Converts Scratch projects into HTML files, zip archives, or executable programs for Windows, macOS, and Linux.",
   "main": "dist/packager.js",
   "scripts": {
@@ -20,7 +20,8 @@
   "author": "GarboMuffin",
   "homepage": "https://github.com/TinyPatch/packager#readme",
   "keywords": [
-    "scratch"
+    "scratch",
+    "packager"
   ],
   "bugs": {
     "url": "https://github.com/TinyPatch/packager/issues"
